@@ -28,6 +28,10 @@ Contains the various provisioning projects used by the Universal Analytics Platf
   - Docker image, running Ansible & CloudFormation to provision and decommission Matillion ETL VM.
   - Terraform modules to provision and decommission Matillion ETL VM.
 
+- uap-airflow-provisioner
+  - Docker image, running Ansible & CloudFormation to provision and decommission Apache Airflow ETL VM.
+  - Terraform modules to provision and decommission Apache Airflow ETL VMM.
+
 - uap-kinesis-provisioner
   - Docker image, running Ansible & CloudFormation to provision and decommission Kinesis Firehose.
   - Terraform modules to provision and decommission Kinesis Firehose.
