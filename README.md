@@ -1,7 +1,7 @@
 ## UAP : Universal Analytics Platform (AWS-based)
 
 
-Universal Analytics Platform architecture with Snowflake DWH, EMR cluster, Kinesis Firehose, DynamoDB, RDS, etc.:
+Universal Analytics Platform architecture with Snowflake DWH, AWS EMR cluster, AWS Kinesis Firehose, AWS DynamoDB, AWS RDS, etc.:
 
 <img src="https://github.com/adavarski/AWS-UAP/blob/main/pictures/AWS-UAP-architecture.png" width="800">
 
