@@ -11,3 +11,19 @@ Note2: Snowflake helped us to leverage big data and streaming capabilities that 
 
 ### UAP provisioners
 Contains the various provisioning projects used by the Universal Analytics Platform. See the relevant readme file of each project for more detail about each provisioner.
+
+- uap-bastion-provisioner
+- uap-dynamodb-provisioner
+- uap-rds-provisioner
+- uap-kinesis-provisioner
+- uap-emr-provisioner
+- uap-snowflake-provisioner
+- uap-matillion-provisioner
+- uap-sagemaker-provisioner
+- uap-sns-provisioner
+- uap-sqs-provisioner
+- uap-tableau-provisioner
+- uap-jenkins-provisioner
+- uap-elasticsearch-provisioner
+- uap-msk-provisioner
+
