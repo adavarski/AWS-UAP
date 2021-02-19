@@ -49,8 +49,12 @@ Contains the various provisioning projects used by the Universal Analytics Platf
   - Terraform modules to provision and decommission AWS EMR cluster.
 
 - uap-snowflake-provisioner
-  - Docker image, running Ansible & CloudFormation (or Terraform) to provision and decommission AWS EMR cluster.
-  - Terraform modules to provision and decommission AWS EMR cluster.
+  - Docker image, running Ansible & CloudFormation (or Terraform) to provision and decommission Snowflake DWHs.
+  - Terraform modules to provision and decommission AWS Snowflake DWHs.
+
+- uap-redshift-provisioner
+  - Docker image, running Ansible & CloudFormation (or Terraform) to provision and decommission AWS Redshift DWHs.
+  - Terraform modules to provision and decommission AWS Redshift DWHs.
 
 - uap-sagemaker-provisioner
   - Docker image, running Ansible & CloudFormation to provision and decommission AWS SageMaker.
