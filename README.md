@@ -15,13 +15,13 @@ Contains the various provisioning projects used by the Universal Analytics Platf
 - uap-bastion-provisioner
 - uap-dynamodb-provisioner
 - uap-rds-provisioner
-- uap-kinesis-provisioner
-- uap-emr-provisioner
-- uap-snowflake-provisioner
 - uap-matillion-provisioner
-- uap-sagemaker-provisioner
+- uap-kinesis-provisioner
 - uap-sns-provisioner
 - uap-sqs-provisioner
+- uap-emr-provisioner
+- uap-snowflake-provisioner
+- uap-sagemaker-provisioner
 - uap-tableau-provisioner
 - uap-jenkins-provisioner
 - uap-elasticsearch-provisioner
