@@ -9,7 +9,7 @@ Note1: Near Real-Time Data/Analytics Platform
 
 Note2: Snowflake helped us to leverage big data and streaming capabilities that were impossible with the legacy solution. For big data, we were processing web logs for example within Apache Spark deployed on top of the EMR cluster. Snowflake accesses Parquet files, and we don’t need to load them into Snowflake. For the streaming use case, we leveraged DynamoDB streams and Kinesis Firehose, and all data is sent into an S3 bucket where Snowflake can consume it.
 
-### 2.Universal Analytics Platform architecture with AWS Managed Kafka cluster (MSK), AWS EMR cluster, Redshift DWH, Apache Airflow (Batch/ETL), etc.:
+### 2.Universal Analytics Platform architecture with AWS Managed Kafka cluster (MSK), AWS EMR cluster, Apache Airflow (Batch/ETL), etc.:
 
 <img src="https://github.com/adavarski/AWS-UAP/blob/main/pictures/3-UAP.png" width="800">
 
