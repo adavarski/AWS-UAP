@@ -1,4 +1,5 @@
-## UAP (AWS)
+## UAP : Universal Analytics Platform (AWS-based)
+
 
 Modern Analytics Solution/Platform architecture example with Snowflake DWH:
 
