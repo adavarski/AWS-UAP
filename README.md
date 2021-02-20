@@ -26,7 +26,7 @@ Contains the various provisioning projects used by the Universal Analytics Platf
 
 - uap-dynamodb-provisioner
   - Docker image, running Ansible & CloudFormation to provision and decommission AWS DynamoDB table used to store client inventory settings.
-  - Terraform modules for WS DynamoDB table used to store client inventory settings.
+  - Terraform modules for AWS DynamoDB table used to store client inventory settings.
   
 - uap-rds-provisioner
   - Docker image, running Ansible & CloudFormation to provision and decommission UAP AWS RDS stacks.
