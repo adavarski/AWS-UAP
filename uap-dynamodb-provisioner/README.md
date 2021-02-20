@@ -10,7 +10,7 @@ cd dynamodb
 make build-provisioner
 
 # Fill in the AWS credentials and region e.g. us-east-2
-# The credentials should be for the "uap-provisioner" user
+# The credentials should be for the IAM provisioner user (uap-provisioner)
 export AWS_ACCESS_KEY_ID="xxx"
 export AWS_SECRET_ACCESS_KEY="xxx"
 export AWS_REGION="us-east-2"
@@ -47,7 +47,7 @@ cd dynamodb
 make build-provisioner
 
 # Fill in the AWS credentials and region e.g. us-east2-
-# The credentials should be for the "uap-provisioner" user
+# The credentials should be for the IAM provisioner user (uap-provisioner)
 export AWS_ACCESS_KEY_ID="xxx"
 export AWS_SECRET_ACCESS_KEY="xxx"
 export AWS_REGION="us-east-2"
