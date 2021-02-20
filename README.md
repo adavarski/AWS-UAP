@@ -1,4 +1,4 @@
-## UAP : Universal Analytics Platform (AWS-based)
+## WIP -> UAP : Universal Analytics Platform (AWS-based)
 
 
 ### 1.Universal Analytics Platform architecture with AWS EMR cluster, AWS Kinesis Firehose, Snowflake DWH, AWS DynamoDB, AWS RDS, AWS SageMaker, Matillion (Batch/ETL), etc.:
@@ -17,7 +17,7 @@ Note2: Snowflake helped us to leverage big data and streaming capabilities that 
 
 <img src="https://github.com/adavarski/AWS-UAP/blob/main/pictures/3-UAP.png" width="800">
 
-## UAP provisioners
+## WIP -> UAP provisioners
 Contains the various provisioning projects used by the Universal Analytics Platform. See the relevant readme file of each project for more detail about each provisioner.
 
 - uap-bastion-provisioner
