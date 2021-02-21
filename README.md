@@ -24,7 +24,7 @@ Contains the various provisioning projects used by the Universal Analytics Platf
 
 - uap-bastion-provisioner
   - Docker image, running Ansible & CloudFormation to provision and decommission bastion/jumpbox VM for UAP infrastructure.
-  - Terraform modules for bastion/jumpbox VM for UAP infrastructure.
+  - Terraform modules for bastion/jumpbox VM.
 
 - uap-dynamodb-provisioner
   - Docker image, running Ansible & CloudFormation to provision and decommission AWS DynamoDB table used to store client inventory settings.
