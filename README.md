@@ -48,7 +48,7 @@ Contains the various provisioning projects used by the Universal Analytics Platf
 
 - uap-sns-provisioner
   - Docker image, running Ansible & CloudFormation to spin up an S3 bucket, SNS Topic to be used as part of the event-driven publishing/analytics pipelines.
-  - Terraform modules for S3 bucket, SNS Topic.
+  - Terraform modules for S3 bucket, SNS Topics.
 
 - uap-sqs-provisioner
   - Docker image, running Ansible & CloudFormation to spin up an S3 bucket, SQS Queues to be used as part of the event-driven publishing/analytics pipelines.
@@ -76,7 +76,7 @@ Contains the various provisioning projects used by the Universal Analytics Platf
 
 - uap-jenkins-provisioner
   - Docker image, running Ansible & CloudFormation to provision and decommission Jenkins CI/CD for UAP infrastructure.
-  - Terraform modules for Jenkins CI/CD UAP infrastructure.
+  - Terraform modules for Jenkins CI/CD @UAP infrastructure.
 
 - uap-elasticsearch-provisioner
   - Docker image, running Ansible & CloudFormation to provision and decommission UAP AWS Managed ElasticSearch clusters.
