@@ -23,72 +23,72 @@ Note3: Objective for UAP (default UAP).
 Contains the various provisioning projects used by the Universal Analytics Platform. See the relevant readme file of each project for more detail about each provisioner.
 
 - uap-bastion-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission bastion/jumpbox VM for UAP infrastructure.
   - Terraform modules for bastion/jumpbox VM.
+  - Docker image, running Ansible & CloudFormation to provision and decommission bastion/jumpbox VM for UAP infrastructure.
 
 - uap-dynamodb-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission AWS DynamoDB table used to store client inventory settings.
   - Terraform modules for AWS DynamoDB table used to store client inventory settings.
+  - Docker image, running Ansible & CloudFormation to provision and decommission AWS DynamoDB table used to store client inventory settings.
   
 - uap-rds-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission UAP AWS RDS stacks.
   - Terraform modules for UAP AWS RDS stacks.
+  - Docker image, running Ansible & CloudFormation to provision and decommission UAP AWS RDS stacks.
 
 - uap-matillion-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission Matillion ETL VM.
   - Terraform modules for Matillion ETL VM.
+  - Docker image, running Ansible & CloudFormation to provision and decommission Matillion ETL VM.
 
 - uap-airflow-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission Apache Airflow ETL VM.
   - Terraform modules for Apache Airflow ETL VM.
+  - Docker image, running Ansible & CloudFormation to provision and decommission Apache Airflow ETL VM.
 
 - uap-kinesis-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission Kinesis Firehose.
   - Terraform modules for Kinesis Firehose.
+  - Docker image, running Ansible & CloudFormation to provision and decommission Kinesis Firehose.
 
 - uap-sns-provisioner
-  - Docker image, running Ansible & CloudFormation to spin up an S3 bucket, SNS Topic to be used as part of the event-driven publishing/analytics pipelines.
   - Terraform modules for S3 bucket, SNS Topics.
+  - Docker image, running Ansible & CloudFormation to spin up an S3 bucket, SNS Topic to be used as part of the event-driven publishing/analytics pipelines.
 
 - uap-sqs-provisioner
-  - Docker image, running Ansible & CloudFormation to spin up an S3 bucket, SQS Queues to be used as part of the event-driven publishing/analytics pipelines.
   - Terraform modules for S3 bucket, SQS Queues.
+  - Docker image, running Ansible & CloudFormation to spin up an S3 bucket, SQS Queues to be used as part of the event-driven publishing/analytics pipelines.
 
 - uap-emr-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission AWS EMR cluster.
   - Terraform modules for AWS EMR cluster.
+  - Docker image, running Ansible & CloudFormation to provision and decommission AWS EMR cluster.
   
 - uap-databricks-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission Databricks cluster.
   - Terraform modules for Databricks cluster.  
+  - Docker image, running Ansible & CloudFormation to provision and decommission Databricks cluster.
 
 - uap-snowflake-provisioner
-  - Docker image, running Ansible & CloudFormation (or Terraform) to provision and decommission Snowflake DWHs.
   - Terraform modules for AWS Snowflake DWHs.
+  - Docker image, running Ansible & CloudFormation (or Terraform) to provision and decommission Snowflake DWHs.
 
 - uap-redshift-provisioner
-  - Docker image, running Ansible & CloudFormation (or Terraform) to provision and decommission AWS Redshift DWHs.
   - Terraform modules for AWS Redshift DWHs.
+  - Docker image, running Ansible & CloudFormation (or Terraform) to provision and decommission AWS Redshift DWHs.
 
 - uap-sagemaker-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission AWS SageMaker.
   - Terraform modules for AWS SageMaker.
+  - Docker image, running Ansible & CloudFormation to provision and decommission AWS SageMaker.
 
 - uap-tableau-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission Tableau Server VM.
   - Terraform modules for Tableau Server VM.
+  - Docker image, running Ansible & CloudFormation to provision and decommission Tableau Server VM.
 
 - uap-jenkins-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission Jenkins CI/CD for UAP infrastructure.
   - Terraform modules for Jenkins CI/CD @UAP infrastructure.
+  - Docker image, running Ansible & CloudFormation to provision and decommission Jenkins CI/CD for UAP infrastructure.
 
 - uap-elasticsearch-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission UAP AWS Managed ElasticSearch clusters.
   - Terraform modules for AWS Managed ElasticSearch clusters.
+  - Docker image, running Ansible & CloudFormation to provision and decommission UAP AWS Managed ElasticSearch clusters.
 
 - uap-msk-provisioner
-  - Docker image, running Ansible & CloudFormation to provision and decommission AWS Managed Kafka cluster (MSK).
   - Terraform modules for AWS Managed Kafka cluster (MSK).
+  - Docker image, running Ansible & CloudFormation to provision and decommission AWS Managed Kafka cluster (MSK).
 
 
 
